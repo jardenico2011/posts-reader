@@ -1,4 +1,3 @@
-
 @import "tailwindcss";
 
 @custom-variant dark (&:is(.dark *));
@@ -46,6 +45,10 @@
 }
 
 @theme inline {
+  --font-heading: var(--font-sans);
+  --font-sans: 'Inter Variable', sans-serif;
+  --font-reading: ui-serif, 'Iowan Old Style', 'Hoefler Text', Palatino, 'Palatino Linotype', Georgia, serif;
+
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-card: var(--card);
