@@ -1,11 +1,15 @@
-import { Button } from "@/components/ui/button"
+import { Layout } from "@/components/layout"
 
 function App() {
   return (
-    <div className="flex min-h-screen items-center justify-center gap-4">
-      <h1 className="text-2xl font-bold">Posts Reader</h1>
-      <Button>Click Me</Button>
-    </div>
+    <Layout>
+      <div className="text-center">
+        <h2 className="text-3xl font-bold">Welcome to Posts Reader</h2>
+        <p className="mt-2 text-muted-foreground">
+          Read and explore posts easily.
+        </p>
+      </div>
+    </Layout>
   )
 }
 
